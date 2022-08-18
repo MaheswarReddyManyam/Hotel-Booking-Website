@@ -9,13 +9,25 @@
 <div>
     <body>
         <header>
-            <img src="./assests/images/logo.png" width="200px" height="150px" alt="logo">
-            <a href="./login.html" target="_blank">Login</a>
-        </header>
+            <a href="./index.html"><img src="./assests/images/logo.png" width="200px" height="150px" alt="logo"></a>
+           <a href="./login.html">Login</a>
+       </header>
         <div>
             <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" width="1200px" height="800px" alt="Radisson BLue">
             <br>
-            <a href="./payment.html">Book Now</a>
+            <form action="./payment.html" method="get">
+                <label for="adults">Adults: </label>
+                <input type="number" name="adult" id="adults" min="1" value="1"> <br>
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name" required autocomplete="off"> <br>
+                <label for="fromdate">From Date: </label>
+                <input type="date" name="fromDate" id="fromdate" required> <br>
+                <label for="todate">To Date: </label>
+                <input type="date" name="toDate" id="fromdate" required> <br>
+                <label for="total">Total: </label> 
+                <input type="text" name="price" readonly> <br>
+                <button type="submit">Book Now</button>
+            </form>
             <h2>Radisson Blu Hotel</h2>
             <p>RATING</p>
             <p>5 Star</p>
@@ -32,7 +44,7 @@
                 tempora sequi veniam quos, ipsum error molestias reiciendis laudantium placeat laboriosam?</p>
         </div>
         <footer>
-            <a href="./contact.html" target="_blank">Contact Us</a> <br>
+            <a href="./contact.html">Contact Us</a> <br>
             <a href="https://www.facebook.com" target="_blank"> <img src="./assests/images/facebook.png"  width="22px" height="20px" alt="Facebook"> </a>
             <a href="https://www.instagram.com" target="_blank"> <img src="./assests/images/instagram.png" width="22px" height="20px" alt="Instagram"> </a>
             <a href="https://www.twitter.com" target="_blank"><img src="./assests/images/twitter.png" width="22px" height="20px" alt="twitter"> </a>
