@@ -1,0 +1,11 @@
+#headerLogo{
+    height: 60px;
+    width: 60px;
+}
+header, footer{
+    background-color: rosybrown;
+}
+body{
+    margin: 0px;
+    background-color: #e0e0e0;
+}

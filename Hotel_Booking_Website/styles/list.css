@@ -1,7 +1,3 @@
-#headerLogo{
-    height: 60px;
-    width: 60px;
-}
 .hotelImages{
     height: 250px;
     width: 250px;
@@ -9,4 +5,19 @@
 .socialMedia{
     height: 20px;
     width: 22px;
+}
+.radisson{
+    margin: 2%;
+    background-color: rgb(132,136,139);
+    width: 40%;
+}
+.lalit{
+    margin: 2%;
+    background-color: rgb(132,136,139);
+    width: 40%;
+}
+.tajPalace{
+    margin: 2%;
+    background-color: rgb(132,136,139);
+    width: 40%;
 }

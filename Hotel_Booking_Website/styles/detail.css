@@ -1,12 +1,15 @@
-#headerLogo{
-    height: 60px;
-    width: 60px;
-}
 #radissonBlue{
     height: 500px;
     width: 500px;
+    margin: 2% 4% 0%;
 }
 .socialMedia{
     height: 20px;
     width: 22px;
+}
+form{
+    margin: 0% 4% 1%;
+}
+.Description{
+    margin: 1% 4% 2%;
 }

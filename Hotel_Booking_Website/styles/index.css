@@ -1,12 +1,21 @@
-#headerLogo{
-    height: 60px;
-    width: 60px;
-}
 #cityImage{
     height: 150px;
     width: 150px;
+    padding: 4%;
+    border-radius: 25%;
 }
 .socialMedia{
     height: 20px;
     width: 22px;
+}
+.searchBar{
+    background: url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg") no-repeat;
+    height: 380px;
+    background-position: center;
+    background-size: cover;   
+}
+.cityImages{
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
 }
