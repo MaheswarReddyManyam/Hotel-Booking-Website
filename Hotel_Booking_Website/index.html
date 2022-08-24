@@ -5,20 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./styles/common.css">
+    <title>Index</title>
 </head>
 <div>
     <body>
         <header>
             <img src="./assests/images/logo.png" id="headerLogo" alt="logo">
-            <a href="./login.html">Login</a>
+            <span><a href="./login.html" id="loginButton">Login</a></span>
         </header>
         <div>
             <div class="searchBar">
                 <form action="">
-                    <input type="tel" id="city" placeholder="City">
+                    <input type="text" id="city" placeholder="City">
                 </form>
             </div>
             <div class="cityImages">
@@ -32,18 +32,19 @@
                     id="cityImage" alt="Kolkata">
                 <br>
             </div>
-            <a href="/index.html">View more >></a>
+            <div class="view"><a href="/index.html" id="viewMore">View more >></a></div>
+            
         </div>
         <footer>
-            <a href="./contact.html">Contact Us</a> <br>
+            <a href="./contact.html" id="contactUs">Contact Us</a>
+            <span>
             <a href="https://www.facebook.com" target="_blank"> <img src="./assests/images/facebook.png"
                     class="socialMedia" alt="Facebook"> </a>
             <a href="https://www.instagram.com" target="_blank"> <img src="./assests/images/instagram.png"
                     class="socialMedia" alt="Instagram"> </a>
             <a href="https://www.twitter.com" target="_blank"><img src="./assests/images/twitter.png"
-                    class="socialMedia" alt="twitter"> </a>
-            <br>
-            &#169; 2020 ROOM SEARCH PVT. LTD.
+                    class="socialMedia" alt="twitter"> </a> </span>
+            <p>&#169; 2020 ROOM SEARCH PVT. LTD. </p>
         </footer>
     </body>
 </div>

@@ -1,3 +1,7 @@
+header span{
+    float: right;
+    padding: 20px 20px;
+}
 #radissonBLue{
     height: 500px;
     width: 500px;

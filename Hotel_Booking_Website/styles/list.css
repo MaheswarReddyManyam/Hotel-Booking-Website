@@ -1,3 +1,7 @@
+header span{
+    float: right;
+    padding: 20px 20px;
+}
 .hotelImages{
     height: 250px;
     width: 250px;
@@ -20,4 +24,22 @@
     margin: 2%;
     background-color: rgb(132,136,139);
     width: 40%;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0px 20px;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
