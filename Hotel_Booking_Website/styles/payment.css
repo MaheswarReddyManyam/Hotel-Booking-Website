@@ -1,10 +1,12 @@
+header a{
+    margin-left: 1%;
+}
 header span{
-    float: right;
-    padding: 20px 20px;
+    margin-right: 2%;
 }
 #radissonBLue{
-    height: 500px;
-    width: 500px;
+    max-height: 300px;
+    max-width: 270px;
 }
 .socialMedia{
     height: 20px;
@@ -12,16 +14,32 @@ header span{
 }
 .HotelDescription{
     background-color: rgb(132,136,139);
-    width: 50%;
+    width: 45%;
     height: 20%;
     margin: 2% auto;
 }
-.customerDetails{
-    margin: 2%;
-}
-.amount{
-    margin: 2%;
+.flex_container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     border: 1px solid black;
-    padding: 1% 2%;
+    background-color: rosybrown;
+    margin: 0 2% 2%;
     border-radius: 5px;
+}
+.flex_container strong{
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive	;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 6% 0;
+}
+.container .HotelDescription{
+    display: flex;
+    align-items: center;
+}
+.container .HotelDescription img{
+    padding-right: 20px;
 }

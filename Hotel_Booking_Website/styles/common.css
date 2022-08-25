@@ -21,28 +21,38 @@ body{
 header{
     position: sticky;
     top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
 }
+
 footer{
     position: sticky;
     bottom: 0px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
 }
 .socialMedia {
     height: 20px;
     width: 22px;
-    vertical-align: middle;
 }
-footer span{
-    float: right;
-    padding: 10px 20px;
-}
-#contactUs{
-    padding: 0px 20px;
-
+footer a{
+    justify-content: center;
+    margin-left: 2%;
 }
 footer p{
     font-size: 10px;
-    /* position:absolute;
-    width:100%;
-    bottom:0; */
-    text-align:center;
 }
+footer span{
+    margin-right: 1%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+

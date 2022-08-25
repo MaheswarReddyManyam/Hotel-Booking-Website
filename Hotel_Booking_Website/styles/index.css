@@ -1,12 +1,14 @@
-header span a{
-    float: right;
-    padding: 20px 20px;
+header a{
+    margin-right: 2%;
+}
+header img{
+    margin-left: 1%;
 }
 #cityImage{
     height: 150px;
     width: 150px;
-    padding: 4%;
     border-radius: 25%;
+    box-shadow: 10px 10px 10px grey;
 }
 .searchBar{
     background: url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg") no-repeat;
@@ -24,14 +26,113 @@ input{
     padding: 10px;
     width: 100%;
     border-radius: 12px;
-}
-.cityImages{
-    text-align: center;
-    margin-left: 15%;
-    margin-right: 15%;
+    outline: none;
 }
 .view{
     text-align: center;
     padding-bottom: 40px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+.flex-container .cityImages{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 4%;
+    position: relative;
+}
+.delhiOverlay{ 
+    position: absolute; 
+    transition: 0.0s ease; 
+    opacity: 0;
+    width: 150px;
+    height: 150px; 
+    top: 22%;
+    border-radius: 25%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.delhiOverlay:hover{
+    opacity: 1;
+    height: 150px;
+}
+.delhiOverlay p{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f1f1f1;
+}
+.goaOverlay{ 
+    position: absolute; 
+    transition: 0.0s ease; 
+    opacity: 0;
+    width: 150px;
+    height: 150px; 
+    top: 60px;
+    border-radius: 25%;
+    text-align: center;
+    color: #f1f1f1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.goaOverlay:hover{
+    opacity: 1;
+    height: 150px;
+}
+.goaOverlay p{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f1f1f1;
+}
+.hyderabadOverlay{ 
+    position: absolute; 
+    transition: 0.0s ease; 
+    opacity: 0;
+    width: 150px;
+    height: 150px; 
+    top: 60px;
+    border-radius: 25%;
+    text-align: center;
+    color: #f1f1f1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.hyderabadOverlay:hover{
+    opacity: 1;
+    height: 150px;
+}
+.hyderabadOverlay p{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f1f1f1;
+}
+.kolkataOverlay{ 
+    position: absolute; 
+    transition: 0.0s ease; 
+    opacity: 0;
+    width: 150px;
+    height: 150px; 
+    top: 60px;
+    border-radius: 25%;
+    text-align: center;
+    color: #f1f1f1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.kolkataOverlay:hover{
+    opacity: 1;
+    height: 150px;
+}
+.kolkataOverlay p{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f1f1f1;
 }
 

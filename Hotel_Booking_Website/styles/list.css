@@ -1,6 +1,8 @@
+header a{
+    margin-left: 1%;
+}
 header span{
-    float: right;
-    padding: 20px 20px;
+    margin-right: 2%;
 }
 .hotelImages{
     height: 250px;
@@ -11,27 +13,50 @@ header span{
     width: 22px;
 }
 .radisson{
-    margin: 2%;
-    background-color: rgb(132,136,139);
+    margin: 2% 5%;
+    background-color: lightgrey;
     width: 40%;
+}
+.radissonFlex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.radisson img{
+    padding-right: 20px;
 }
 .lalit{
-    margin: 2%;
-    background-color: rgb(132,136,139);
+    margin: 2% 5%;
+    background-color: lightgrey;
     width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.lalit img{
+    padding-right: 20px;
 }
 .tajPalace{
-    margin: 2%;
-    background-color: rgb(132,136,139);
+    margin: 2% 5%;
+    background-color: lightgrey;
     width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
-nav ul{
+.tajPalace img{
+    padding-right: 20px;
+}
+ul{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-nav ul li{
+ul li{
     list-style: none;
     padding: 0px 20px;
     font-weight: bold;
