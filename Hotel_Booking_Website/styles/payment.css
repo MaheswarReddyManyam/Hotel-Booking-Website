@@ -1,10 +1,11 @@
-#container{
+#container {
     display: flex;
     flex-direction: column;
     align-content: center;
     margin-top: 10%;
 }
-#HotelDescription{
+
+#HotelDescription {
     background-color: rgb(132, 136, 139);
     width: 50%;
     height: 20%;
@@ -12,11 +13,13 @@
     display: flex;
     align-items: center;
 }
-.radissonBLue{
+
+.radissonBLue {
     max-height: 300px;
     max-width: 270px;
 }
-#flex_container{
+
+#flex_container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -25,9 +28,24 @@
     margin: 0% 2%;
     background-color: rosybrown;
 }
-#flex_container strong{
-    font-family: 'Comic Sans MS', 'Comic Sans', cursive	;
+
+#flex_container strong {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
 }
+
 .hotel-name-rating {
     padding: 3% 3% !important;
+}
+
+@media screen and (max-width: 575.99px) {
+    #HotelDescription {
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+
+    #flex_container {
+        flex-direction: column;
+        align-items: center;
+    }
 }

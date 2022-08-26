@@ -1,25 +1,29 @@
-#cityImage{
+#cityImage {
     height: 150px;
     width: 150px;
     border-radius: 25%;
     box-shadow: 10px 10px 10px grey;
 }
-.backgroundImage{
+/* Setting Background Image and setting related properties and styling */
+.backgroundImage {
     background: url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg") no-repeat;
     height: 380px;
+    width: auto;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
 }
-#searchBar{
+
+#searchBar {
     position: absolute;
     top: 50%;
-    left: 36%; 
+    left: 36%;
     right: 36%;
     bottom: 50%;
 }
-#city{
+
+#city {
     background-color: #f1f1f1;
     border: 1px solid transparent;
     font-size: 16px;
@@ -28,43 +32,62 @@
     border-radius: 12px;
     outline: none;
 }
-.flex-container{
+
+.flex-container {
     display: flex;
     flex-direction: column;
 }
-.cityImages{
+
+.cityImages {
     display: flex;
     justify-content: space-evenly;
     padding: 4% 0%;
 }
-.cityImages_innerText{
+
+.cityImages_innerText {
     position: relative;
 }
-.textoverlay{ 
-    position: absolute; 
-    transition: 0.0s ease; 
+/* Overlaying of text over City image */
+.textoverlay {
+    position: absolute;
+    transition: 0.0s ease;
     opacity: 0;
     width: 100%;
-    height: 100%; 
+    height: 100%;
     top: 0;
     border-radius: 25%;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
 }
-.cityImages_innerText:hover .textoverlay{
+
+.cityImages_innerText:hover .textoverlay {
     opacity: 1;
 }
-.textoverlay span{
+
+.textoverlay span {
     position: relative;
     top: 45%;
     color: #f1f1f1;
     /* transform: translate(-50%, -50%); */
 }
-#viewMore{
+
+#viewMore {
     margin-bottom: 6%;
     display: flex;
     justify-content: center;
     text-decoration: none;
 }
 
+@media screen and (max-width: 575.99px) {
+    .cityImages {
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .cityImages {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}

@@ -1,9 +1,10 @@
-.hotelImages{
+.hotelImages {
     height: 200px;
     width: 250px;
 }
-.hotel{
-    margin: 4% 5% 0% 5%; 
+
+.hotel {
+    margin: 4% 5% 0% 5%;
     background-color: lightgrey;
     width: 40%;
     float: left;
@@ -11,23 +12,29 @@
     justify-content: start;
     align-content: center;
 }
+
 .hotel:hover {
     background-color: rosybrown;
     color: black;
 }
+
 #list-container {
     position: relative;
     height: 100%;
     width: 100%;
     margin-top: 6%;
 }
+/* Navigation of list and map view */
 #pills-tab {
     justify-content: center;
 }
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
     background-color: #007bff;
     color: black;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: black;
 }
