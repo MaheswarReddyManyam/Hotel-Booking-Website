@@ -1,70 +1,33 @@
-header a{
-    margin-left: 1%;
-}
-header span{
-    margin-right: 2%;
-}
 .hotelImages{
-    height: 250px;
+    height: 200px;
     width: 250px;
 }
-.socialMedia{
-    height: 20px;
-    width: 22px;
-}
-.radisson{
-    margin: 2% 5%;
+.hotel{
+    margin: 4% 5% 0% 5%; 
     background-color: lightgrey;
     width: 40%;
-}
-.radissonFlex{
+    float: left;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: start;
+    align-content: center;
 }
-.radisson img{
-    padding-right: 20px;
+.hotel:hover {
+    background-color: rosybrown;
+    color: black;
 }
-.lalit{
-    margin: 2% 5%;
-    background-color: lightgrey;
-    width: 40%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
+#list-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin-top: 6%;
 }
-.lalit img{
-    padding-right: 20px;
-}
-.tajPalace{
-    margin: 2% 5%;
-    background-color: lightgrey;
-    width: 40%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-.tajPalace img{
-    padding-right: 20px;
-}
-ul{
-    display: flex;
-    flex-direction: row;
+#pills-tab {
     justify-content: center;
-    align-items: center;
 }
-ul li{
-    list-style: none;
-    padding: 0px 20px;
-    font-weight: bold;
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #007bff;
+    color: black;
 }
-.container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.nav-link:hover{
+    color: black;
 }

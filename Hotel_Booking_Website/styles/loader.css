@@ -5,6 +5,15 @@
     width: 70px;
     height: 70px;
     position: absolute;
-    left: 50%;
-    top: 50%;
+    top: 0; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    margin: auto;
+    animation: rotation 1s infinite linear;
+}
+@keyframes rotation {
+    100% {
+        transform: rotate(360deg);
+}
 }
