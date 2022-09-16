@@ -17,10 +17,10 @@
 
 #searchBar {
     position: absolute;
-    top: 50%;
-    left: 36%;
-    right: 36%;
-    bottom: 50%;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25%;
 }
 
 #city {
@@ -79,15 +79,35 @@
 }
 
 @media screen and (max-width: 575.99px) {
+    #search-bar {
+        width: 60%;
+    }
     .cityImages {
         flex-direction: column;
-        align-items: center;
+        margin: auto;
+    }
+    #cityImage{
+        height: 200px;
+        width: 200px;
+    }
+    .cityImages_innerText{
+        padding: 4% 0%;
     }
 }
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
+    #search-bar {
+        width: 60%;
+    }
     .cityImages {
         flex-wrap: wrap;
-        align-items: center;
+        margin: auto;
+    }
+    #cityImage{
+        height: 250px;
+        width: 260px;
+    }
+    .cityImages_innerText{
+        padding: 4% 0%;
     }
 }
