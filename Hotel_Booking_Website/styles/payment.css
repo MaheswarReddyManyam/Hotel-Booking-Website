@@ -37,15 +37,38 @@
     padding: 3% 3% !important;
 }
 
-@media screen and (max-width: 575.99px) {
+@media screen and (max-width: 576px) {
     #HotelDescription {
+        width: 100%;
+        flex-direction: column;
+        padding-top: 10px;
+    }
+
+    #container {
+        margin-top: 20%;
+        margin-bottom: 20%;
+        display: flex;
         flex-direction: column;
         align-content: center;
-        align-items: center;
+    }
+
+    #pay-now{
+        align-self: center;
     }
 
     #flex_container {
+        align-items: normal;
         flex-direction: column;
-        align-items: center;
+        padding: 15px;
+    }
+
+    .hotel-name-rating {
+        text-align: center;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    #HotelDescription {
+        width: 80%;
+        margin: 5% auto;
     }
 }

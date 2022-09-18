@@ -38,3 +38,35 @@
 .nav-link:hover {
     color: black;
 }
+@media screen and (max-width: 576px) {
+   #list-container{
+    margin-bottom: 150%;
+   }
+   #pills-tab{
+    padding-top: 15%;
+   }
+   .hotel{
+        width: 90%;
+        flex-direction: column;
+   }
+   .hotelImages {
+        width: 100%;
+    }
+    #map-view > img {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    #pills-tab {
+        padding-top: 5%;
+    }
+    
+    .hotel{
+        width: 90%;
+        flex-direction: column;
+    }
+
+    #map-view > img {
+        width: 100%;
+    }
+}

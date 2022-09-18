@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    <div id="loader"></div>
     <div class="main-container">
         <header class="header-footer" id="headerID"></header>
         <div id="container">
@@ -28,14 +29,14 @@
             </div>
             <div id="flex_container">
                 <div id="customerDetails">
-                    <p><strong>Name:</strong>&nbsp;John Doe </p>
-                    <p><strong>Number of Adults:</strong>&nbsp;2</p>
-                    <p><strong>Check-in Date:</strong>&nbsp;12/08/2022</p>
-                    <p><strong>Check-out Date:</strong>&nbsp;28/08/2022</p>
+                    <p id="name"></p> 
+                    <p id="adult"></p>
+                    <p id="from-date"></p>
+                    <p id="to-date"></p>
                 </div>
                 <div id="amount">
-                    <p><strong>Tariff Breakdown:</strong>&nbsp;Rs.1000 x 2 Adults x 5 Nights</p>
-                    <p><strong>Total Amount:</strong>&nbsp;Rs 10000</p>
+                    <p id="tariff"></p>
+                    <p id="amount"></p>
                 </div>
                 <a href="#" id="pay-now">
                     <button type="button" id="pay-now-button" class="btn btn-success" onclick="" >Pay Now</button>
